@@ -1,4 +1,4 @@
-package com.amigoscode.demo.exception;
+package com.ibm.demo.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

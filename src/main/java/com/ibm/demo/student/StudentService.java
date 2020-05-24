@@ -1,7 +1,7 @@
-package com.amigoscode.demo.student;
+package com.ibm.demo.student;
 
-import com.amigoscode.demo.EmailValidator;
-import com.amigoscode.demo.exception.ApiRequestException;
+import com.ibm.demo.EmailValidator;
+import com.ibm.demo.exception.ApiRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

@@ -1,4 +1,4 @@
-package com.amigoscode.demo;
+package com.ibm.demo;
 
 import org.junit.Test;
 
@@ -19,6 +19,7 @@ public class EmailValidatorTest {
     }
 
     @Test
+    // @Ignore
     public void itShouldValidateAnIncorrectEmailWithoutDotAtTheEnd() {
         assertThat(underTest.test("hello@gmail")).isFalse();
     }

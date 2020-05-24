@@ -1,4 +1,4 @@
-package com.amigoscode.demo;
+package com.ibm.demo;
 
 import org.springframework.stereotype.Component;
 
@@ -16,6 +16,7 @@ public class EmailValidator implements Predicate<String> {
 
     @Override
     public boolean test(String email) {
+        // return IS_EMAIL_VALID.negate().test(email);
         return IS_EMAIL_VALID.test(email);
     }
 }
